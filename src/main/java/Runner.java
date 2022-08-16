@@ -55,6 +55,12 @@ public class Runner {
         System.out.println("In Alphabetical Order: "+scottishIslands);
 
 //        9. Print out all the islands using a for loop
+        System.out.println("Island's in a for loop: ");
+        for (String scottishIsland : scottishIslands){
+            System.out.println(scottishIsland);
+        }
+
+
 
 
 
