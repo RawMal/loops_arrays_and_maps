@@ -109,5 +109,13 @@ public class Runner {
 //           ...and numbers that come immediately after a 13 also do not count.
 //
 //          So [7, 13, 2] would have sum of 9.
+        int total = 0;
+        for (int number : numbers){
+            if(number == 13){
+                break;
+            }
+            total += number;
+        }
+        System.out.println("Sum of Numbers without 13: " + total);
     }
     }
