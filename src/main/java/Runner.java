@@ -81,7 +81,20 @@ public class Runner {
         System.out.println(even);
 
 //        2. Print the difference between the largest and smallest value
+        int maximum = daNumbers[0];
+        int minimum = daNumbers[0];
+        for (int i = 1; i < daNumbers.length; i++){
+            if (daNumbers[i] > maximum)
+                maximum = daNumbers[i];
+            else if (daNumbers[i] < minimum)
+                minimum = daNumbers[i];
+
+            }
+        System.out.println("difference between the largest and smallest value is: "+(maximum-minimum));
+
+        }
 //        3. Print True if the list contains a 1 next to a 1 somewhere.
+    
 //        4. Print the sum of the numbers,
 //        5. Print the sum of the numbers...
 //           ...except the number 13 is unlucky, so it does not count...
@@ -90,5 +103,3 @@ public class Runner {
 //          So [7, 13, 2] would have sum of 9.
 
     }
-
-}
