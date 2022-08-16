@@ -41,14 +41,16 @@ public class Runner {
 
 //        5. Remove "Tresco" from the list by name
         scottishIslands.remove("Tresco");
+        System.out.println(scottishIslands);
 
 //        6. Remove "Arran" from the list by index
+        scottishIslands.remove(5);
+        System.out.println(scottishIslands);
 
 //        7. Print the number of islands in your arraylist
 //        8. Sort the list alphabetically
 //        9. Print out all the islands using a for loop
 
-        System.out.println(scottishIslands);
 
 //        NUMBERS
         List<Integer> numbers = new ArrayList<>();
