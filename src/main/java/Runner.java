@@ -100,9 +100,9 @@ public class Runner {
         //       4. Print the sum of the numbers,
         int sumOfNumbers = 0;
         for (int i = 0; i < numbers.size(); i++) {
-            sumOfNumbers = numbers.get(i);
-            System.out.println("Sum of numbers = " + sumOfNumbers);
+            sumOfNumbers = sumOfNumbers + numbers.get(i);
         }
+        System.out.println("Sum of numbers = " + sumOfNumbers);
 
 //        5. Print the sum of the numbers...
 //           ...except the number 13 is unlucky, so it does not count...
